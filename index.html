@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhabanis Fitness</title>
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            background: url('gym2.jpg');
+            /* height: 100vh;
+            width: 100vh; */
+            background-size: cover;
+            font-family: 'Times New Roman', Times, serif
+                /* background-repeat: no-repeat; */
+                /* height: 4444px; */
+
+        }
+
+        img {
+            size: 30px 30px;
+        }
+
+        .left {
+            /* border: 2px solid rgb(201, 112, 112); */
+            color: aliceblue;
+            display: inline-block;
+            position: absolute;
+            left: 24px;
+            top: 8px;
+        }
+
+        .left img {
+            width: 50px;
+            height: 44px;
+            margin-left: 26px;
+            margin-right: 37px;
+
+
+        }
+
+        .left div {
+            text-align: center;
+        }
+
+        .mid {
+            /* border: 2px solid rgb(123, 123, 160); */
+            color: aliceblue;
+            display: block;
+            width: 550px;
+            margin: 8px auto;
+        }
+
+        .right {
+            /* border: 2px solid rgb(167, 167, 131); */
+            color: aliceblue;
+            display: inline-block;
+            position: absolute;
+            right: 19px;
+            top: 8px;
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 20px;
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 24px 13px;
+        }
+
+        .navbar li a:hover {
+            color: yellow;
+            text-decoration: underline;
+        }
+
+        .btn {
+            margin: 14px 2px;
+            color: white;
+            background-color: gray;
+            padding: 3px 4px;
+            border: 2px solid rgb(102, 93, 93);
+            border-radius: 10px;
+            font-size: 14px;
+            cursor: pointer;
+            font-family: 'Times New Roman', Times, serif
+        }
+
+        .btn:hover {
+            background-color: rgb(99, 93, 93);
+        }
+
+        .container {
+            /* border: 2px solid #f9f9f5; */
+            color: white;
+            margin: 66px 27px;
+            border-radius: 20px;
+            padding: 12px 38px;
+            width: 32%;
+        }
+
+        .container h1 {
+            font-size: 20px;
+        }
+
+        .form-group input {
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+            display: block;
+            width: 198px;
+            padding: 1px;
+            border: 1px solid #352610;
+            margin: 5px auto;
+            font-size: 20px;
+            border-radius: 20px;
+        }
+        .container h1{
+            text-align: center;
+        }
+        .container button{
+            display: block;
+            width: 23%;
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <!-- logo -->
+        <div class="left">
+            <img src="log3.jpg" alt="">
+            <div>Bhabani Fitness</div>
+        </div>
+
+        <!-- navar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a> </li>
+                <li><a href="#">About us</a> </li>
+                <li><a href="#">Fitness Calculator</a> </li>
+                <li><a href="#">Contact us</a> </li>
+            </ul>
+        </div>
+
+        <!-- buttons -->
+        <div class="right">
+            <button class="btn">Call us now</button>
+            <button class="btn">Email us</button>
+        </div>
+
+    </header>
+    <div class="container">
+        <h1>Join The Best gym on Bhanjanagar</h1>
+        <form action="nauh.php"></form>
+        <div class="form-group">
+            <input type="text" placeholder="Enter your Name">
+        </div>
+        <div class="form-group">
+            <input type="text" placeholder="Enter your Age">
+        </div>
+        <div class="form-group">
+            <input type="text" placeholder="Enter your Gender">
+        </div>
+        <div class="form-group">
+            <input type="text" placeholder="Enter your Locality">
+        </div>
+        <button class="btn">Submit</button>
+    </div>
+</body>
+
+</html>
